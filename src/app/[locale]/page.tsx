@@ -3,8 +3,7 @@ import React from 'react';
 import { Heading, Flex, Text, Button,  Avatar, RevealFx, Arrow } from '@/once-ui/components';
 import { Projects } from '@/components/work/Projects';
 
-import { baseURL, routes, renderContent } from '@/app/resources'; 
-import { Mailchimp } from '@/components';
+import { baseURL, renderContent } from '@/app/resources'; 
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 

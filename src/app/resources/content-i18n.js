@@ -138,4 +138,5 @@ const work = {
     // All projects will be listed on the /home and /work routes
 }
 
+
 export { person, social, home, about, work };

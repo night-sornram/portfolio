@@ -1,0 +1,68 @@
+{
+    "person": {
+        "role": "Computer Engineering Student"
+    },
+    "home": {
+        "label": "Home",
+        "title": "{name}'s Portfolio",
+        "description": "Portfolio website showcasing my work as a {role}",
+        "headline": "Computer Engineering Student",
+        "subline": "I'm Sornram, a computer engineering student at CHULALONGKORN am studying software and doing personal projects in my free time."
+    },
+    "about": {
+        "label": "About",
+        "title": "About me",
+        "description": "Meet {name}, {role} from {location}",
+        "intro": {
+            "title": "Introduction",
+            "description": "Sararam is a second-year student of Computer Engineering at Chulalongkorn University. He is studying to become a software engineer in the future."
+        },
+        "work": {
+            "title": "Work Experience",
+            "experiences": {
+                "National ITMX": {
+                    "timeframe": "May 2024 - July 2024",
+                    "role": "Intern Software Engineer",
+                    "achievements": "Employee Check-In, Check-Out and Leave Management System."
+                }
+            }
+        },
+        "studies": {
+            "title": "Studies",
+            "institutions": {
+                "Chulalongkorn University": {
+                    "description": "Computer Engineering & Digital Technology."
+                }
+            }
+        },
+        "technical": {
+            "title": "Technical skills",
+            "skills": {
+                "NextJS": {
+                    "description": "Building frontend with Next.js."
+                },
+                "Golang": {
+                    "description": "Building backend with Golang."
+                }
+            }
+        }
+    },
+    "blog": {
+        "label": "Blog",
+        "title": "Writing about design and tech...",
+        "description": "Read what {name} has been up to recently"
+    },
+    "work": {
+        "label": "Work",
+        "title": "My projects",
+        "description": "Design and dev projects by {name}"
+    },
+    "gallery": {
+        "label": "Gallery",
+        "title": "My photo gallery",
+        "description": "A photo collection by {name}"
+    },
+    "projectCard": {
+        "label": "Read Case Study"
+    }
+}

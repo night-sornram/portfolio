@@ -9,7 +9,7 @@ export async function generateMetadata(
     {params: {locale}}: { params: { locale: string }}
 ) {
     const t = await getTranslations();
-    const {person, about, social } = renderContent(t);
+    const { about } = renderContent(t);
 	const title = about.title;
 	const description = about.description;
 	const ogImage = `https://${baseURL}/og?title=${encodeURIComponent(title)}`;
